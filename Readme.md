@@ -46,10 +46,10 @@ Controller: The brains of the application that controls how data is displayed th
 ---
 ### HTTP methods
 * GET: the data you requested and sends it back to you.
-* PUT: Update
+* PUT: Update Idempotent
 * POST: New Entry
 * DELETE: Delete
-* PATCH: partial modifications to a resource 
+* PATCH: partial modifications to a resource  specific fields not Idempotent
 ---
 ### Microservices vs Monolith
 *  monolithic application is a single unified unit, a microservices architecture breaks it down into a collection of smaller independent units. 
